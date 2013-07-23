@@ -1,11 +1,44 @@
 <HTML>
     <HEAD>
-        <link rel="form" type="html" href="form.html">
+        <title>Welcome to Code101!</title>
+        <link href='bootstrap/css/bootstrap.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css" />
     </HEAD>
 
-<h1> Welcome to our coding class! </h1>
+<div class = "container">
+<body>
 
-<h2> Commands to navigate with the terminal</h2>
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#">Code101</a>
+    </div>
+</div>
+
+<div class = "wrapper">
+<div class ='page-header' >
+<h1> Welcome to our coding class! </h1>
+</div>
+
+<br>
+
+<div class='description'>
+<p> This awesome FREE course is an introduction to HTML, CSS and git. </p>
+<P> It will be offered in 7 one-hour, weekly sessions. However, please note that:</p>
+<ul>
+    <li> You must commit to making every single session </li>
+    <li> And be prepared to put in 3 hours work outside the course each week </li>
+</ul>
+
+</br>
+</div>
+
+
+<h2> Let's get started! </h2>
+
+<div class="row">
+ <div class="span8">
+<span class="label label-success">Terminal</span>
+<h3> Commands to navigate with the terminal</h3>
 <ul>
     <li> pwd : to find out in which directory you are </li>
     <li> ls : to list the content of the directory you are in </li>
@@ -13,7 +46,8 @@
     <li> cd .. : to go up one directory </li>
 </ul>
 
-<h2> Commands in Git </h2>
+<span class="label label-info">Git</span>
+<h3> Commands in Git </h3>
 <ul>
     <li> git init : To initialize a git repository in a new or an existing project </li>
     <li> git clone : To copy a git repository </li>
@@ -26,5 +60,43 @@
     <li> git add . stages new and modified, without deleted</li>
     <li>git add -u stages modified and deleted, without new</li>
 </ul>
+
+ </div>
+
+ <div class="span4">
+<h2> Create an account </h2>
+
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{window.location='Thanks.html';}"></iframe>
+
+<form action="https://docs.google.com/forms/d/11xc5tpLm4rwuueZoUcAEWC9sAln8fPzZjqDpsy_S0G0/formResponse" method="post"
+target="hidden_iframe" onsubmit="submitted=true;">
+
+
+<p>What is your name?</p>
+<input type="text" name="entry.3194525" value="" class="ss-q-short" id="entry_3194525" dir="auto">
+
+
+<p>What is you email?</p>
+<input type="text" name="entry.1213096385" value="" class="ss-q-short" id="entry_1213096385" dir="auto">
+
+<p>What languages would you like to learn?</p>
+<ul >
+    <li> <input type="checkbox"> Ruby </li> 
+    <li> <input type="checkbox"> HTML </li> 
+    <li> <input type="checkbox"> CSS </li>
+</ul>
+
+<input type="submit" name="submit" value="Submit">
+
+</form>
+
+ </div>
+</div>
+</div>
+</body>
+</div>
 
 </HTML>

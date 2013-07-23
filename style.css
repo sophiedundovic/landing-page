@@ -1,0 +1,24 @@
+/*This is a CSS rule */
+body {
+	
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	background-position: center;
+	
+	font-family: calibri, sans-serif;
+}
+
+
+.description {
+	font-size: 20px;
+	color: grey;
+}
+
+.wrapper {
+	width: 1000px;
+	background: white;
+	margin: 40px auto 40px auto;
+	padding: 40px;
+}
