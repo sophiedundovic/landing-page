@@ -10,7 +10,8 @@ body {
 	font-family: calibri, sans-serif;
 }
 
-
+.thanks {	background-image: none;
+}
 .description {
 	font-size: 20px;
 	color: grey;
