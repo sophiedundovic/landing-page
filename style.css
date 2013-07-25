@@ -10,16 +10,18 @@ body {
 	font-family: calibri, sans-serif;
 }
 
-.thanks {	background-image: none;
-}
-.description {
-	font-size: 20px;
-	color: grey;
+
+.intro {
+	margin-top: 10%;
 }
 
-.wrapper {
-	width: 1000px;
-	background: white;
-	margin: 40px auto 40px auto;
-	padding: 40px;
+.left {
+	background-color: transparent;
+	  padding: 40px;
+
+}
+
+.well {
+	font-size: 15px;
+    background-color: #f5f5f5;
 }
