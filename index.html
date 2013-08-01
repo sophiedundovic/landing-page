@@ -41,7 +41,7 @@
 
         </HEAD>
 
-        <body>
+        <body data-spy="scroll" data-target=".navbar">
 
           <div class = "container intro">
             <div class="row ">
@@ -49,7 +49,7 @@
               <div class="span8">
                <div class="hero-unit left">
 
-                <h1>SHHHH... </br>Free coding course</h1>
+                <h1 class="well">Free coding course</h1>
                 <br>
                 <div class="text">
                   <p> This awesome FREE course is an introduction to HTML, CSS and git. </p>
@@ -67,7 +67,8 @@
             <div class="well">
 
 
-              <h2 class="account"> Create an account </h2>
+              <h2 class="account">Stay updated</h2>
+              <p> We will send you more information as soon as the course is ready!</p>
               <script type="text/javascript">var submitted=false;</script>
               <iframe name="hidden_iframe" id="hidden_iframe"
               style="display:none;" onload="if(submitted)
@@ -77,11 +78,11 @@
               target="hidden_iframe" onsubmit="submitted=true;">
 
 
-              <p>What is your name?</p>
+              <p>Tell us your name</p>
               <input type="text" name="entry.3194525" value="" class="ss-q-short" id="entry_3194525" dir="auto">
 
 
-              <p>What is you email?</p>
+              <p>Your e-mail</p>
               <input type="text" name="entry.1213096385" value="" class="ss-q-short" id="entry_1213096385" dir="auto">
 
               <p>What languages would you like to learn?</p>
@@ -99,12 +100,8 @@
       </div>
       <div class="clear"></div>
 
-      <div class="row">
-        <div class="span12 text-center">
-          <button type="button" class="btn btn-large" data-toggle="collapse" data-target="#demo">
-            Need more Info?
-          </button>
-        </div>
+      <div class="navbar navbar-fixed-bottom">
+         <button class="btn pull-right">Stay updated</button>
       </div>
 
       <div class="row">
