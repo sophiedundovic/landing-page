@@ -1,11 +1,11 @@
 /*!
  * Bootstrap v2.3.2
  *
- * Copyright 2012 Twitter, Inc
+ * Copyright 2013 Twitter, Inc
  * Licensed under the Apache License v2.0
  * http://www.apache.org/licenses/LICENSE-2.0
  *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ * Designed and built with all the love in the world by @mdo and @fat.
  */
 
 .clearfix {
@@ -129,8 +129,8 @@ input {
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-  padding: 0;
-  border: 0;
+  padding: 1;
+  border: 1;
 }
 
 button,
@@ -223,11 +223,15 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Georgia;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
+  color: #ffffff;
   background-color: #ffffff;
+}
+
+#form {
+  color: #000000;
 }
 
 a {
@@ -732,17 +736,25 @@ a.text-success:focus {
   text-align: center;
 }
 
+h2 {
+  margin: 10px 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  font-weight: bold;
+  line-height: 20px;
+  color: #000000;
+  text-rendering: optimizelegibility;
+}
+
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: inherit;
+  font-family: Georgia;
   font-weight: bold;
   line-height: 20px;
-  color: inherit;
+  color: #000000;
   text-rendering: optimizelegibility;
 }
 
@@ -972,7 +984,7 @@ address {
 code,
 pre {
   padding: 0 3px 2px;
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-family: Georgia;
   font-size: 12px;
   color: #333333;
   -webkit-border-radius: 3px;
@@ -1026,6 +1038,7 @@ pre code {
 
 form {
   margin: 0 0 20px;
+  color: #000000;
 }
 
 fieldset {
@@ -4519,7 +4532,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   padding: 4px 14px;
   margin-bottom: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Georgia;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
