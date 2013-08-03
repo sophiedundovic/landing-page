@@ -57,41 +57,36 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 <div class="span4">
 <div class="well">
 
-
 <h2 class="account"> Create an account </h2>
 <script type="text/javascript">var submitted=false;</script>
 <iframe name="hidden_iframe" id="hidden_iframe"
 style="display:none;" onload="if(submitted)
 {window.location='Thanks.html';}"></iframe>
 
-<form id="form" action="https://docs.google.com/forms/d/11xc5tpLm4rwuueZoUcAEWC9sAln8fPzZjqDpsy_S0G0/formResponse" method="post"
+
+<form class="form-control input-large" id="form" action="https://docs.google.com/forms/d/11xc5tpLm4rwuueZoUcAEWC9sAln8fPzZjqDpsy_S0G0/formResponse" method="post"
 target="hidden_iframe" onsubmit="submitted=true;">
-
-
-<p>What is your name?</p>
-<input type="text" name="entry.3194525" value="" class="ss-q-short" id="entry_3194525" dir="auto">
-
-
-<p>What is you email?</p>
-<input type="text" name="entry.1213096385" value="" class="ss-q-short" id="entry_1213096385" dir="auto">
-
-
-<p>
-    <input type="radio"> I would like to be informed about updates and news about the course. 
-</p>
-
-<input type="submit" name="submit" value="Submit">
-
-</form>
-</div>
-</div>
-
-
+  <div class="form-group">
+    <label for="inputName" class="col-lg-2 control-label">Your name<br></label>
+    <div class="col-lg-10">
+      <input type="text" class="form-control" id="inputName" placeholder="Name">
     </div>
-    <div class="clear"></div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail" class="col-lg-2 control-label">Your email</label>
+    <div class="col-lg-10">
+      <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Subscribe me for news and updates about Code Course Inc.
+        </label>
+      </div><br>
+      <button type="button" class="btn btn-success">Submit</button>
+    </div>
+  </div>
+</form>
 
 
-</div>
 
 </body>
 </HTML>
