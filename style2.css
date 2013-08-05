@@ -1,0 +1,65 @@
+/*This is a CSS rule */
+body {  
+font-family: calibri;  
+text-align: center;
+  background-image: url(assets/background.jpg); 
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h2 {
+  color: #db5749;
+}
+
+
+.intro {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.well {
+    background-color: #f5f5f5;
+}
+
+.account {
+  text-align: center;
+}
+
+
+.headline {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 10%;
+  color: #db5749;
+  text-transform: uppercase;
+
+}
+
+.wrapper {
+  width: auto;
+  height: auto;
+  background: white;
+ padding-top: 30px;
+ padding-bottom: 30px;
+
+}
+
+#footer {
+  background-color: #db5749;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+#navbar {
+  background-color: #db5749;
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  height: 40px;
+  margin-left: -300px;
+}
