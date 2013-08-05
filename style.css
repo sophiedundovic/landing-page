@@ -1,22 +1,22 @@
 /*This is a CSS rule */
-body {	
-	font-family: calibri, sans-serif;
-  background-image: url(assets/background.jpg);
+body {  
+font-family: calibri;  
+text-align: center;
+  background-image: url(assets/bgimage.png); 
   background-size: cover;
   background-repeat: repeat-y;
   background-attachment: fixed;
   background-position: center;
 }
 
-
-.intro {
-	margin-top: 10%;
-  margin-left: 10%;
+h2 {
+  color: #db5749;
 }
 
-.left {
-	background-color: transparent;
-	padding: 40px;
+
+.intro {
+  margin-top: 10%;
+  margin-left: 10%;
 }
 
 .well {
@@ -27,11 +27,39 @@ body {
   text-align: center;
 }
 
-.account2 {
-  color: red;
+
+.headline {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 10%;
+  color: #db5749;
+  text-transform: uppercase;
+
 }
 
-.text {
-  font-size: 22px;
+.wrapper {
+  width: auto;
+  height: auto;
+  background: white;
+ padding-top: 30px;
+ padding-bottom: 30px;
 
+}
+
+#footer {
+  background-color: #db5749;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+#navbar {
+  background-color: #db5749;
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  height: 40px;
+  margin-left: -300px;
 }
